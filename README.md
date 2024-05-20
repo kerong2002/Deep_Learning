@@ -1,4 +1,58 @@
 # Deep_Learning
+<details> 
+ <summary><b>Pytorch</b></summary> 
+
+# Pytorch parameter
+## nn.Conv2d()
+visualization ： https://github.com/vdumoulin/conv_arithmetic/blob/master/README.md
+
+- input = (N, Cin, H, W)
+- output = (N, Cout, Hout, Wout)
+![con2d.svg](svg%2Fcon2d.svg)
+![H_out.svg](svg%2FH_out.svg)
+![W_out.svg](svg%2FW_out.svg)
+
+
+|    Parameter    | Description |
+|:---------------:|:-----------:|
+|   in_channels   |   輸入的通道數    |
+| out_channels=64 |   輸出的通道數    |
+|   kernel_size   |   捲積核的大小    |
+|     stride      |     步長      |
+|     padding     |    外圍的填充    |
+|    dilation     |    核之間空隙    |
+|     groups      |    分組捲積0    |
+|      bias       |    偏置參數     |
+
+## nn.MaxPool2d()
+
+|   Parameter    |     Description     |
+|:--------------:|:-------------------:|
+|  kernel_size   |       捲積核的大小        |
+|     stride     |         步長          |
+|    padding     |        外圍的填充        |
+|    dilation    |       核之間的空隙        |
+| return_indices | 如果true，則會回傳等於最大值的序列 |
+|   ceil_mode    |    如果true，會向上取整     |
+
+## nn.ReLU()
+
+| Parameter | Description |
+|:---------:|:-----------:|
+|  inplace  |    直接覆蓋     |
+
+## nn.Linear()
+
+|  Parameter   | Description |
+|:------------:|:-----------:|
+| in_featuers  |   輸入的張量大小   |
+| out_features |   輸出的張量大小   |
+|     bias     |    偏置參數     |
+
+    
+</details>
+
+
 ## Network
 ### LeNet5
 
