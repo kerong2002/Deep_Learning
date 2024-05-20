@@ -8,6 +8,7 @@ visualization ： https://github.com/vdumoulin/conv_arithmetic/blob/master/READM
 
 - input = (N, Cin, H, W)
 - output = (N, Cout, Hout, Wout)
+  
 ![con2d.svg](svg%2Fcon2d.svg)
 ![H_out.svg](svg%2FH_out.svg)
 ![W_out.svg](svg%2FW_out.svg)
