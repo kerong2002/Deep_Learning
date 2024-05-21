@@ -117,8 +117,6 @@ visualization ： https://github.com/vdumoulin/conv_arithmetic/blob/master/READM
 |   24   | Fully-Connected |      4096      |       10        |      -      |   -    |    -    |            |
 
 
-## GoogleNet
-
 ## ResNet18
 | Number |      Layer      | Input Channels | Output Channels | Kernel Size | Stride | Padding | Activation |
 |:------:|:---------------:|:--------------:|:---------------:|:-----------:|:------:|:-------:|:----------:|
